@@ -7,3 +7,10 @@ Compilation of Web System and Technologies Activities
 
 - [Dazel Catabuena](https://www.github.com/dazel123)
 - [JeanahCarezo](https://www.github.com/jeyeamsii)
+
+## Features
+
+- Light/dark mode toggle
+- Live previews
+- Fullscreen mode
+- Cross platform
