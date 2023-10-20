@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>ZELERA SHOP</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!-- A Program to illustrate paragraph,header,unorder and order list tag -->
+    <!-- h1 is the biggest headings -->
+    <h1 style="color:brown" style="font-size:100px"><marquee behavior="alternate">Zelera Shop</marquee></h1>
+    <!-- p  is used to insert paragraph -->
+    <p style="color:darkmagenta"><marquee behavior="fixed">A shop that can satisfy your fashion needs</marquee><p>
+    <!-- hr is used to insert horizontal line -->
+    <hr color="red">
+
+    <div class="scroll-container">
+        <img src="./img/Black_Polo-removebg-preview (1).png">
+        <img src="./img/Croptop-removebg-preview (1).png">
+        <img src="./img/Dress-removebg-preview (1).png">
+        <img src="./img/Cargo_Pants-removebg-preview (1).png">
+        <img src="./img/kid_s_hooded_jacket-removebg-preview (1).png">
+        <img src="./img/Skirt-removebg-preview (3).png">
+    </div>
+
+    <div class="row">
+        <div class="column"><h2>WHAT WE OFFER</h2>
+            <!-- ol is order list -->
+            <ol>
+            <!-- li represents list -->
+                <li>Women's  </li>
+                <li>Men's Wear</li>
+                <li>Kid's Wear</li>
+            </ol></div>
+        <div class="column"><h4>Women's Wear</h4>
+            <ol type="i">
+                <li>Croptop</li>
+                <li>Skirt</li>
+                <li>Wideleg and Cargo Pants</li>
+                <li>Dress</li>
+            </ol></div>
+        <div class="column"><h4>Men's Wear</h4>
+            <!-- ul is unorder list -->
+            <ul type="circle">
+                <li>Slacks</li>
+                <li>T-Shirt</li>
+                <li>Shorts</li>
+                <li>Tuxedo</li>
+            </ul></div>
+        <div class="column"><h4>Kid's Wear</h4>
+            <ul type="square">
+                <li>Dress</li>
+                <li>Terno Pajama</li>
+                <li>Hoodie</li>
+                <li>Swimsuit</li>
+            </ul></div>
+      </div>
+
+    <!-- A program to illustrate table -->
+    <h3 align="center">SIZES AND QUANTITY</h3>
+
+    <table border="1" width="100%">
+        <!-- tr represents table row -->
+        <tr>
+
+        <!-- th represents table header -->
+            <th>Attire</th>
+            <th>Products</th>
+            <th>Size</th>
+            <th>Quantity</th>
+        </tr>
+
+        <tr>
+        <!-- td represents table data -->
+        <!-- rowspan is used to span a row -->
+            <td rowspan="4" align="center">Women's Wear</td>
+            <td>Croptop</td>
+            <td>S/M/L</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Skirt</td>
+            <td>21-30</td>
+            <td>150</td>
+        </tr>
+        <tr>
+            <td>Wide Leg Pants</td>
+            <td>21-30</td>
+            <td>200</td>
+        </tr>
+
+        <tr>
+            <td>Dress</td>
+            <td>S/M/L</td>
+            <td>100</td>
+        </tr>
+
+        <tr>
+            <td rowspan="4" align="center">Men's Wear</td>
+            <td>Slacks</td>
+            <td>21-30</td>
+            <td>250</td>
+        </tr>
+        <tr>
+            <td>T-Shirt</td>
+            <td>S/M/L</td>
+            <td>155</td>
+        </tr>
+        <tr>
+            <td>Shorts</td>
+            <td>21-30</td>
+            <td>150</td>
+        </tr>
+
+        <tr>
+            <td>Tuxedo</td>
+            <td>S/M/L</td>
+            <td>500</td>
+        </tr>
+
+        <tr>
+            <td rowspan="4" align="center">Kid's Wear</td>
+            <td>Dress</td>
+            <td>S/M/L</td>
+            <td>300</td>
+        </tr>
+        <tr>
+            <td>Terno Pajama</td>
+            <td>S/M/L</td>
+            <td>150</td>
+        </tr>
+        <tr>
+            <td>Hoodie</td>
+            <td>S/M/L</td>
+            <td>200</td>
+        </tr>
+
+        <tr>
+            <td>Swimsuit</td>
+            <td>S/M/L</td>
+            <td>100</td>
+        </tr>
+    </table>
+
+    <h2>HELP US IMPROVE OUR SHOP</h2>
+    <div class="container">
+        <form action="action_page.php">
+          <div class="row">
+            <div class="col-25">
+              <label for="name">Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="name" name="name" placeholder="Input your full name">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="email">Email</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="email" name="email" placeholder="Input your email">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+               <label for="question">Is it your first time to visit this website?</label> 
+            </div>
+            <div class="col-75">
+              <select id="question" name="question">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+                <option value="maybe">Maybe</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="queries">Do you have any queries?</label>
+            </div>
+            <div class="col-75">
+              <textarea id="queries" name="queries" placeholder="Insert your queries" style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear Form">
+          </div>
+        </form>
+      </div>
+
+</body>
