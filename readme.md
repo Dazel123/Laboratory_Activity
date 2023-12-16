@@ -6,4 +6,7 @@ Compilation of Web System and Technologies Activities
 ## Authors
 
 - [Dazel Catabuena](https://www.github.com/dazel123)
-- [JeanahCarezo](https://www.github.com/jeyeamsii)
+- [Jeanah Carezo](https://www.github.com/jeyeamsii)
+-[Sarah Joy Celso](https://github.com/Wysiwyouget)
+-[Leony Brizuela]()
+-[April Joy Gloriat]()
