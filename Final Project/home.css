@@ -1,0 +1,97 @@
+* {
+    box-sizing:border-box;
+  }
+  
+  h1,h4,p {
+    font-family:'Courier New', Courier, monospace;
+  }
+  
+  
+  /* Header/logo Title */
+  .header {
+    padding: 10px;
+    text-align: center;
+    background:#aaa;
+    color:aliceblue;
+  }
+  
+  /* Increase the font size of the heading */
+  .header h1 {
+    font-size: 40px;
+  }
+  
+  /* Style the top navigation bar */
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    float: left;
+    display: block;
+    color:aqua;
+    text-align: center;
+    padding: 10px 100px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Column container */
+  .row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    -ms-flex: 20%; /* IE10 */
+    flex: 20%;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  /* Main column */
+  .main {   
+    -ms-flex: 80%; /* IE10 */
+    flex: 80%;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  
+  /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 700px) {
+    .row {   
+      flex-direction: column;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
+  }
+  
+  div.scroll-container {
+    background-color:#aaa;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 5px;
+  }
+  
+  div.scroll-container img {
+    padding: 5px;
+  }
+  
+  

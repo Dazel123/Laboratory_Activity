@@ -1,0 +1,559 @@
+body{
+    background-color: #e05699a2 ;
+  
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+    
+}
+
+.nav{
+    margin: 0 auto;
+    font-size: 200%;
+    border-style: none;
+    padding: 1% 2%;
+    border-radius: 2ch;
+    color: white;
+    background-image: linear-gradient(to bottom right, #b65eba, #2e8de1);
+    text-decoration: none;
+}
+
+.nav:hover{
+    background-image: linear-gradient(to bottom right, #64e8de, #8a64eb);
+    padding: 1% 3%
+    
+}
+
+
+
+#zelera_logo{
+    height:15%;
+    width:15%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+#tagline{
+    
+    text-align: center;
+    padding-top: 0%;
+    padding-bottom: 5%;
+   
+
+}
+
+#title{
+    padding-top: 2%;
+    padding-bottom: 0%;
+    text-align: center;
+    line-height:2%;
+}
+
+#page_title{
+    font-size: 1000%;
+    
+}
+
+#tagline1{
+    font-size: 3em;
+    
+}
+
+
+
+
+.kidswear{
+    
+    padding: 1.5% 3%;
+    border-style: none;
+    border-width: 1px;
+    border-radius: 50px;
+    background-image:linear-gradient(to bottom right, #b65eba , #2e8de1);
+    
+    
+}
+
+#categories a:hover{
+    background-image: linear-gradient(to bottom right, #f00b51,#7366ff);
+    padding: 1.5% 5%;
+}
+#categories a{
+  text-decoration: none;
+  color:white;
+  font-size: 150%;
+}
+
+
+
+ 
+
+
+#categories{
+    padding-top:10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#kids_pic{
+    width:100%;
+    height:25%
+}
+
+#TopWear{
+    padding-top: 10%;
+    padding-bottom:3%;
+    text-align: center;
+    font-size: 4em;
+    
+    
+}
+
+#BottomWear{
+  padding-top: 10%;
+  padding-bottom:3%;
+  text-align: center;
+  font-size: 4em;
+  
+  
+}
+
+#Formal_Dresses{
+  padding-top: 10%;
+  padding-bottom:3%;
+  text-align: center;
+  font-size: 4em;
+  
+  
+}
+
+#OuterWear{
+  padding-top: 10%;
+  padding-bottom:3%;
+  text-align: center;
+  font-size: 4em;
+  
+  
+}
+
+.topwear{
+    padding-top: 10%;
+}
+
+.topwear_card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    width:30%;
+   
+}
+
+.topwear_card:hover {
+    box-shadow: 0 8px 16px 0 rgb(0, 0, 0);
+  }
+
+.top_girls{
+    display:flex;
+    justify-content: space-around;
+}
+
+
+
+
+#shirt_girls{
+    padding-left: 5%;
+    font-size: 250%;
+    
+}
+
+.top_boys{
+    display:flex;
+    justify-content: space-around;
+}
+
+.shirt_boys{
+    padding-left: 5%;
+    padding-top:5%;
+    font-size: 250%
+}
+
+#back_topwear{
+    
+    width:20%;
+    padding-top: 2%;
+    padding-left:2%;
+    
+  
+}
+
+#back_topwear a:hover{
+    background-image: linear-gradient(to bottom right, #f00b51,#7366ff);
+    
+    
+}
+
+#back_topwear a{
+    text-decoration: none;
+    border-style: none;
+    color:white;
+    padding: 8% 8%;
+    border-width:1px;
+    border-radius: 3ch;
+    background-image: linear-gradient(to bottom right, #b65eba,#2e8de1 );
+}
+
+#boys_back_topwear{
+    
+    width:20%;
+    padding-top: 7%;
+    padding-left:2%;
+    
+  
+}
+
+#boys_back_topwear a:hover{
+    background-image: linear-gradient(to bottom right, #f00b51,#7366ff)
+}
+
+#boys_back_topwear a{
+    
+    text-decoration: none;
+    border-style: none;
+    color:white;
+    padding: 8% 8%;
+    border-width:1px;
+    border-radius: 3ch;
+    background-image: linear-gradient(to bottom right,  #b65eba,#2e8de1);
+  
+}
+
+
+
+.back_link{
+    display:flex;
+    justify-content:space-between;
+}
+
+
+
+
+footer{
+  padding-top:3%;
+  
+}
+
+
+footer p{
+  padding:2%;
+  background-color: #eceef57a;
+  text-align:center;
+}
+
+#social_media_icons{
+  padding-bottom:5%;
+  display: flex;
+  justify-content:center;
+
+}
+
+#social_media_icons img{
+  padding-right: 4%;
+ padding-left: 4%;
+ 
+  width:10%;
+}
+
+
+
+
+
+
+
+/* style for slideshow*/
+.slideshow-container {
+    
+    
+    position:relative;
+   
+  }
+  
+  .mySlides {
+    display: none;
+  }
+
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight:bold;
+    font-size: 30px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(255, 88, 88, 0.8);
+    color: white;
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+
+  .dots {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dots:hover {
+    background-color: #717171;
+  }
+
+
+  .dotss {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dotss:hover {
+    background-color: #717171;
+  }
+
+
+
+  .dotsss {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dotsss:hover {
+    background-color: #717171;
+  }
+
+
+  .dotssss {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dotssss:hover {
+    background-color: #717171;
+  }
+
+
+  .dotsssss {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dotsssss:hover {
+    background-color: #717171;
+  }
+
+
+  .dotssssss {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dotssssss:hover {
+    background-color: #717171;
+  }
+
+  .dotsssssss {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dotsssssss:hover {
+    background-color: #717171;
+  }
+
+
+  .dotssssssss {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dotssssssss:hover {
+    background-color: #717171;
+  }
+
+  .dotsssssssss {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dotsssssssss:hover {
+    background-color: #717171;
+  }
+
+  .dotssssssssss {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dotssssssssss:hover {
+    background-color: #717171;
+  }
+
+  .dotsssssssssss {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dotsssssssssss:hover {
+    background-color: #717171;
+  }
+
+  .dotssssssssssss {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dotssssssssssss:hover {
+    background-color: #717171;
+  }
+
+
+
+
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+
+.icons{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  
+}
+
+.icon_heart{
+  display:flex;
+  justify-content:end;
+  padding-right:6%;
+  padding-bottom: 6%;
+}
+.icon_text{
+  display:flex;
+  align-items:center;
+  padding-left:6%;
+  padding-bottom: 6%;
+}
+
+
+
